@@ -1,8 +1,17 @@
+#change-log-component {
+    text-align: center;
+}
+
+.description {
+    color: lightgray;
+}
+
 #change-log {
     padding-top: 20px;
     padding-bottom: 20px;
-    margin: 30px 0px;
     position: relative;
+    width: 600px;
+    margin: 30px auto;
 }
 
 .change-log-item {
@@ -22,7 +31,7 @@
 #change-log::before {
     position: absolute;
     top: 0%;
-    left: 20.6%;
+    left: 208px;
     width: 1px;
     height: 100%;
     content: "";
@@ -31,4 +40,12 @@
 
 .change-log-item__description {
     margin-left: 10px;
+}
+
+.visit-button {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 10px;
 }

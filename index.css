@@ -1,0 +1,34 @@
+#change-log {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 30px 0px;
+    position: relative;
+}
+
+.change-log-item {
+    display: flex;
+}
+
+.change-log-item__date {
+    width: 200px;
+    text-align: center;
+    color: lightgray;
+}
+
+.change-log-item__point {
+    font-size: 1.1rem;
+}
+
+#change-log::before {
+    position: absolute;
+    top: 0%;
+    left: 20.6%;
+    width: 1px;
+    height: 100%;
+    content: "";
+    background-color: black;
+}
+
+.change-log-item__description {
+    margin-left: 10px;
+}
